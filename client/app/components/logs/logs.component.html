@@ -1,0 +1,20 @@
+<div class="logs-list">
+	<div class="alert alert-info text-center" [hidden]="logs.length > 0">
+		<h3> Brak danych do wyświetlenia </h3>
+	</div>
+	<table class="table table-striped">
+			<thead>
+				<tr>
+				    <th>Data otwierania</th>
+					<th>Czy poprawnie wpisano PIN?</th>	
+				</tr>
+			</thead>
+			<tbody>	
+					<tr *ngFor="let log of logs">
+						<td>{{log.datka}}</td>
+						<td>{{log.isCompleted}}</td>
+					</tr>
+			
+			</tbody>
+	</table>
+</div>
