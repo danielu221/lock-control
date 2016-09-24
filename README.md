@@ -1,6 +1,6 @@
 # lock-control
 
-My first project using Angular 2.0 for front-end . The system is a concept of a door-lock control system. T
+My first project using Angular 2.0 for front-end . The system is a concept of a door-lock control system. The app is based on MEAN technologies. 
 
 To run the project :
 
